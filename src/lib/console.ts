@@ -11,7 +11,6 @@ export class Console {
     this.moduleName = moduleName
   }
 
-  // `[${this.moduleName.toUpperCase()}]`
   successWelcome () {
     console.log(`${Colors.blue(`[${this.moduleName.toUpperCase()}]`)} ${Colors.yellow(PlusMessage.CORRECT_CONECTION)}` +
 ' ->> ' +

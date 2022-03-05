@@ -1,7 +1,6 @@
 /* eslint-disable no-useless-constructor */
 import { Response } from 'express'
 import { StatusCode, ResponseStatus } from './enums'
-// import { IResponse } from '../interfaces/Interfaces'
 
 export class ResponseTS {
   success (res: Response, message: string) {
